@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\DRick\Desktop\UDP_Receiver\UDP_Receiver\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>38</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Die Variable "ChronoTimer::duration" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).</DESCRIPTION>
+    <FUNCTION>ChronoTimer::{ctor}</FUNCTION>
+    <DECORATED>??0ChronoTimer@@QAE@XZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ChronoTimer::duration</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\DRick\Desktop\UDP_Receiver\UDP_Receiver\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>94</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Rückgabewert wird ignoriert: "sscanf".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>54</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
